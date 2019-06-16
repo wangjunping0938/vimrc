@@ -1,4 +1,4 @@
-![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/vim.jpg){class}
+![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/vim.jpg){:height="50%" width="300%"}
 # vimrc
 
 #### 介绍
