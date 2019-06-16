@@ -1,3 +1,4 @@
+![VIM](https://gitee.com/Jiang-Jun/vimrc/blob/master/pictures/vim.jpg)
 # vimrc
 
 #### 介绍
