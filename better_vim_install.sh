@@ -2,14 +2,14 @@
 
 set -e
 
-#cd ~/vimrc
+cd ~/.Vimrc
 
-echo 'set runtimepath+=~/.vimrc
+echo 'set runtimepath+=~/.Vimrc
 
-source ~/.vimrc/vimrcs/basic.vim
+source ~/.Vimrc/vimrcs/basic.vim
 
 try
-    source ~/.vimrc/vimrcs/plugins.vim
+    source ~/.Vimrc/vimrcs/plugins.vim
 catch
 endtry' > ~/.vimrc
 

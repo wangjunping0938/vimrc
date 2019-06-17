@@ -17,16 +17,16 @@
 
 - 先将项目克隆至本地目录执行如下指令
     ```Bash
-    git clone https://github.com/wangjunping0938/vimrc.git ~/.vimrc
+    git clone https://github.com/wangjunping0938/vimrc.git ~/.Vimrc
     ```
 - 基础版本安装
     ```Bash
-    sh ~/.vimrc/basic_vim_install.sh
+    sh ~/.Vimrc/basic_vim_install.sh
     ```
 
 - 多功能版本安装
     ```Bash
-    sh ~/.vimrc/better_vim_install.sh
+    sh ~/.Vimrc/better_vim_install.sh
     ```
 
 #### 使用说明
