@@ -1,10 +1,15 @@
-![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/vim.jpg){:height="50%" width="300%"}
+![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/vim.jpg "VIM"
+{width=400px height=40px})
 # vimrc
 
 #### 介绍
-vim 个人最终配置
+  我个人一直使用vim编辑器作为开发工具,这里是我个人最终使用的vim配置
+  个人有2个版本:
+    1. **基础版本**: [basic.vim]
+    2. **插件版本**: 包含一些插件,主题,和其他一些配置
 
-#### 软件架构
+
+#### 安装教程
 软件架构说明
 
 
