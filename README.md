@@ -2,7 +2,7 @@
 ===
 
 
-#### 介绍
+### 介绍
 
 我本人一直使用vim编辑器作为开发工具,这是我经过一段时间使用经验总结的2个版本
 个人建议使用更多功能的版本
@@ -13,13 +13,17 @@
 ![VIM](/pictures/basic-vim.png)
 
 
-#### 安装教程
+### 安装教程
 
 - 先克隆该项目至本地
+    ```Bash
     git clone https://github.com/wangjunping0938/vimrc.git ~/vimrc
+    ```
 
 - 基础版安装
+    ```Bash
     sh ~/vimrc/basic_vim_install.sh
+    ```
 
 
 #### 使用说明
