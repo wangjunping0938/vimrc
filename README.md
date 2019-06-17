@@ -1,4 +1,4 @@
-![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/basic-vim.png)
+![VIM](/pictures/basic-vim.png)
 # 最终版vim配置及配置文件vimrc
 
 #### 介绍
@@ -6,8 +6,8 @@
 
 个人有2个版本:
 
-    1. **基础版本**: [basic.vim](https://github.com/wangjunping0938/vimrc/blob/master/vimrcs/basic.vim)
-    2. **更多功能版本**: 包含一些插件,主题,和其他一些配置
+1. **基础版本**: [basic.vim](https://github.com/wangjunping0938/vimrc/blob/master/vimrcs/basic.vim)
+2. **更多功能版本**: 包含一些插件,主题,和其他一些配置
 
 个人建议使用更多功能的版本
 
