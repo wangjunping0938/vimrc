@@ -10,6 +10,7 @@ source ~/.Vimrc/vimrcs/basic.vim
 
 try
     source ~/.Vimrc/vimrcs/plugins.vim
+    source ~/.Vimrc/vimrcs/plugins_config.vim
 catch
 endtry' > ~/.vimrc
 

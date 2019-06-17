@@ -27,6 +27,8 @@
 - 多功能版本安装
     ```Bash
     sh ~/.Vimrc/better_vim_install.sh
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    vim +PluginInstall +qall
     ```
 
 #### 使用说明
