@@ -48,6 +48,8 @@ set statusline=\ File:\ %F%m%r%h\ %w\ \ Line:\ %l\ \ Column:\ %c
 
 " => VIM多样设置
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 关闭与vi的兼容模式
+set nocompatible
 " 关闭vim欢迎界面
 set shortmess+=I
 " 命令行高度
@@ -168,3 +170,27 @@ set wrap
 set nobackup
 " 仅在编辑文件不需要备份时使用
 set nowritebackup
+
+
+" => 自定义函数
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 按F5键一键调试代码
+map <F5> :call RunCode()<CR>
+function! RunCode()
+    exec "w"
+    if &filetype == "python"
+        exec "!time python3 %"
+    elseif &filetype == "sh"
+        exec "!time bash %"
+    endif
+endfunction
+
+" 根据文件类型自动加入解释器
+autocmd BufNewFile *.py,*.sh exec ":call SetTitle()"
+func SetTitle()
+    if &filetype == "python"
+        call setline(1,"\# -*- coding: utf-8 -*-")
+    elseif &filetype == "sh"
+        call setline(1,"\#! /bin/bash")
+    endif
+endfunc
