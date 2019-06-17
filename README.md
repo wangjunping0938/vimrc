@@ -31,6 +31,14 @@
     vim +PluginInstall +qall
     ```
 
+- vim-airline插件需要安装字体
+    ```Bash
+    git clone git@github.com:powerline/fonts.git ~/fonts
+    cd ~/fonts
+    ./install.sh
+    ```
+
+
 #### 使用说明
 
 1. xxxx

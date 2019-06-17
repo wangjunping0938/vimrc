@@ -65,3 +65,29 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
+
+" => vim-nerdtree-tabs目录树标签支持插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 在控制台启动vim时打开目录树标签
+let g:nerdtree_tabs_open_on_console_startup=1
+
+
+" => ctrlp.vim文件快速查找插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 默认快捷键设置
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+" 忽略.gitignore中的文件
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+" 使用自定义文件列表命令
+let g:ctrlp_user_command = 'find %s -type f'
+
+
+" => vim-airline状态栏美化插件
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 支持powerline fonts
+let g:airline_powerline_fonts = 1
+" 开启增强型tabline
+let g:airline#extensions#tabline#enabled = 1
+" 显示buffer编号
+let g:airline#extensions#tabline#buffer_nr_show = 1
