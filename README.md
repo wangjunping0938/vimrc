@@ -38,6 +38,14 @@
     ./install.sh
     ```
 
+- YouCompleteMe代码自动补全插件需要手动安装
+    ```Bash
+    sudo apt install build-essential cmake python3-dev -y
+    vim +PluginInstall +qall
+    cd ~/.vim/bundle/YouCompleteMe
+    python3 install.py
+    ```
+
 
 #### 使用说明
 

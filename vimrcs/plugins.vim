@@ -27,4 +27,10 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'ctrlpvim/ctrlp.vim'
 " 状态栏美化插件
 Plugin 'vim-airline/vim-airline'
+" 状态栏主题插件
+Plugin 'vim-airline/vim-airline-themes'
+" 配色方案插件
+Plugin 'altercation/vim-colors-solarized'
+" 代码自动补全插件
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
