@@ -1,4 +1,4 @@
-![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/vim.jpg =40x400)
+![VIM](https://gitee.com/Jiang-Jun/vimrc/raw/master/pictures/basic-vim.png)
 # vimrc
 
 #### 介绍
