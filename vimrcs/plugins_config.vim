@@ -147,3 +147,25 @@ highlight YcmErrorLine guibg=#3f0000
 let g:ycm_python_interpreter_path = 'python3'
 " 设置ctrl+j跳转至方法或类定义处
 nnoremap <c-j> :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+
+" => syntastic语法检测插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 设置python语法检测解释器
+let g:syntastic_python_flake8_exec = 'python3'
+let g:syntastic_python_flake8_args = ['-m', 'flake8']
+" 使用指定的语法检测模块
+let g:syntastic_python_checkers = ['pylint', 'flake8']
+" 指定需要语法检测的文件类型
+let g:syntastic_php_checkers = ['py', 'md', 'sh']
+" 对当前类型文件开启多个检测程序
+let g:syntastic_aggregate_errors = 1
+" 始终更新错误列表
+let g:syntastic_always_populate_loc_list = 1
+" 语法错误标志符号
+let g:syntastic_enable_signs = 1
+let g:syntastic_error_symbol = "✗"
+let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_style_error_symbol = '!'
+let g:syntastic_style_warning_symbol = '?'
+let python_highlight_all=1

@@ -33,4 +33,6 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
 " 代码自动补全插件
 Plugin 'Valloric/YouCompleteMe'
+" 语法检测插件
+Plugin 'vim-syntastic/syntastic'
 call vundle#end()
