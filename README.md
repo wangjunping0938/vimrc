@@ -2,7 +2,7 @@
 ===
 
 
-### 介绍
+### VIM介绍
 
 我本人一直使用vim编辑器作为开发工具,这是我经过一段时间使用经验总结的2个版本
 个人建议使用更多功能的版本
@@ -60,11 +60,10 @@
 
 ### 使用说明
 
+1. vim操作文档详情[operation.md]()
 ![VIM](/pictures/better-vim.png)
+![Python效果图](/pictures/python-vim.png)
 
-1. xxxx
-2. xxxx
-3. xxxx
 
 ### 参与贡献
 
@@ -86,21 +85,21 @@
 
 ### 插件及相关文档
 
-- [vim-option-doc](http://vimdoc.sourceforge.net/htmldoc/options.html)
-- [nerdtree](https://github.com/scrooloose/nerdtree)
-- [vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
-- [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
-- [vim-airline](https://github.com/vim-airline/vim-airline)
-- [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
-- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
-- [syntastic](https://github.com/vim-syntastic/syntastic.git)
-- [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
-- [indentpython.vim](https://github.com/vim-scripts/indentpython.vim)
-- [indentLine](https://github.com/Yggdroot/indentLine)
-- [auto-pairs](https://github.com/jiangmiao/auto-pairs)
-- [vim-flake8](https://github.com/nvie/vim-flake8)
-- [SimpylFold](https://github.com/tmhedberg/SimpylFold)
-- [vim-autopep8](https://github.com/tell-k/vim-autopep8)
-- [taglist.vim](https://github.com/vim-scripts/taglist.vim)
-- [emmet-vim](https://github.com/mattn/emmet-vim)
+- vim选项说明文档[vim-option-doc](http://vimdoc.sourceforge.net/htmldoc/options.html)
+- 目录树插件[nerdtree](https://github.com/scrooloose/nerdtree)
+- 目录树标签插件[vim-nerdtree-tabs](https://github.com/jistr/vim-nerdtree-tabs)
+- 文件搜索插件[ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+- 状态栏美化插件[vim-airline](https://github.com/vim-airline/vim-airline)
+- 状态栏主题插件[vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
+- 代码自动补全插件[YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+- 语法检测插件[syntastic](https://github.com/vim-syntastic/syntastic.git)
+- 代码注释插件[nerdcommenter](https://github.com/scrooloose/nerdcommenter)
+- python自动缩进插件[indentpython.vim](https://github.com/vim-scripts/indentpython.vim)
+- 缩进指示线插件[indentLine](https://github.com/Yggdroot/indentLine)
+- 括号自动补全插件[auto-pairs](https://github.com/jiangmiao/auto-pairs)
+- 语法风格检测插件[vim-flake8](https://github.com/nvie/vim-flake8)
+- 代码折叠插件[SimpylFold](https://github.com/tmhedberg/SimpylFold)
+- 代码风格格式化插件[vim-autopep8](https://github.com/tell-k/vim-autopep8)
+- 代码标签插件[taglist.vim](https://github.com/vim-scripts/taglist.vim)
+- 前端代码自动补全插件[emmet-vim](https://github.com/mattn/emmet-vim)
 
