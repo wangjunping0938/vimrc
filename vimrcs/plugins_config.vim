@@ -169,3 +169,94 @@ let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_style_error_symbol = '!'
 let g:syntastic_style_warning_symbol = '?'
 let python_highlight_all=1
+
+
+" => nerdcommenter注释插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 注释分隔符后面添加一个空格
+let g:NERDSpaceDelims = 1
+" 多行注释使用更紧密的语法
+let g:NERDCompactSexyComs = 1
+" 注释分隔符左对齐
+let g:NERDDefaultAlign = 'left'
+" 设置使用语言本身注释符号
+let g:NERDAltDelims_java = 1
+" 允许注释反转空行
+let g:NERDCommentEmptyLines = 1
+" 允许处理空白字符
+let g:NERDTrimTrailingWhitespace = 1
+" 允许检测所有选定行是否有注释
+let g:NERDToggleCheckAllLines = 1
+
+
+" => indentLine缩进指示线插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 开启缩进指示线
+let g:indentLine_enabled = 1
+" 缩进指示线字符
+let g:indentLine_char = '∶'
+" Vim缩进指示线颜色
+let g:indentLine_color_term = 239
+" GVim缩进指示线颜色
+let g:indentLine_color_gui = '#A4E57E'
+" 缩进指示线颜色深度
+let g:indentLine_color_tty_light = 1 " (default: 4)
+let g:indentLine_color_dark = 1 " (default: 2)
+" 改变隐藏(markdown文件开启隐藏)
+let g:indentLine_concealcursor = ''
+
+
+" => auto-pairs括号自动补全插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 开启飞行模式
+let g:AutoPairsFlyMode = 1
+let g:AutoPairsShortcutBackInsert = '<^[b>'
+
+
+" => vim-flake8语法风格检测(python)设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 使用F7一键检测代码风格
+autocmd FileType python map <buffer> <F3> :call flake8#Flake8()<CR>
+" 设置快速修复窗口高度
+let g:flake8_quickfix_height=7
+" 每次编写python文件时运行代码风格检测
+autocmd BufWritePost *.py call flake8#Flake8()
+
+
+" => SimpylFold代码折叠插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 折叠文本中开启文档字符串预览
+let g:SimpylFold_docstring_preview = 1
+" 不折叠import
+let g:SimpylFold_fold_import = 0
+" 使用空格键代替zo,zc进行代码折叠
+nnoremap <space> za
+
+
+" => vim-autopep8 Python代码自动格式化为pep8规范
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 按F8自动格式化代码风格
+autocmd FileType python noremap <buffer> <F8> :call Autopep8()<CR>
+
+
+" => taglist.vim 源码浏览插件
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 右侧开启浏览窗口
+let Tlist_Use_Right_Window = 1
+" 显示仅在当前buffer定义的标签
+let Tlist_Show_One_File = 1
+" 退出vim时关闭标签窗口
+let Tlist_Exit_OnlyWindow = 1
+" 设置窗口大小
+let Tlist_WinWidth = 30
+" 设置F4键打开标签窗口
+nnoremap <silent> <F4> :TlistToggle<CR>
+
+
+" => emmet-vim HTML,CSS,JS代码一键补全插件设置
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 仅对HTML/CSS文件开启插件功能
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+" 使用Alt+s 一键补全(alt=ctrl+v)
+let g:user_emmet_expandabbr_key = 's'
