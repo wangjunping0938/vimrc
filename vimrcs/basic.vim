@@ -98,8 +98,15 @@ set wildmenu
 
 " => 代码折叠设置
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 开启代码折叠
+set foldenable
 " 设置折叠表示显示宽度
 set foldcolumn=1
+" 启动时关闭折叠
+set foldlevelstart=99
+" 基于语法代码折叠
+set foldmethod=syntax
+set foldlevel=2
 
 
 " => 语法高亮设置
