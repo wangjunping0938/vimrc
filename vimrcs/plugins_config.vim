@@ -169,6 +169,16 @@ let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_style_error_symbol = '!'
 let g:syntastic_style_warning_symbol = '?'
 let python_highlight_all=1
+" F2自动开启关闭错误窗口,不需要手动
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+map <F2> :SyntasticToggleMode<CR>
+" 语法错误检查
+execute pathogen#infect()
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 
 " => nerdcommenter注释插件设置
