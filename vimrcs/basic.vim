@@ -34,8 +34,6 @@ set ruler
 set cursorline
 " 始终显示状态行
 set laststatus=2
-" 状态行格式
-set statusline=\ File:\ %F%m%r%h\ %w\ \ Line:\ %l\ \ Column:\ %c
 
 
 " => VIM多样设置
