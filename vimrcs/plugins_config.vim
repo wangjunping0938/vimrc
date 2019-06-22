@@ -96,7 +96,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 " => vim-airline-themes主题插件设置
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 根据匹配颜色自动选择主题
-let g:airline_theme='dark'
+let g:airline_theme='bubblegum'
 
 
 " => vim-colors-solarized配色方案插件设置
